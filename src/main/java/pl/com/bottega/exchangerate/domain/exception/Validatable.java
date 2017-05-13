@@ -1,4 +1,4 @@
-package pl.com.bottega.exchangerate.domain.commands;
+package pl.com.bottega.exchangerate.domain.exception;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package pl.com.bottega.exchangerate.domain.commands;
+package pl.com.bottega.exchangerate.domain.exception;
 
 
 public class InvalidCommandException extends RuntimeException {

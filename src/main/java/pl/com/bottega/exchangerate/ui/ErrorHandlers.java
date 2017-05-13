@@ -1,13 +1,14 @@
 package pl.com.bottega.exchangerate.ui;
 
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import pl.com.bottega.exchangerate.domain.NoRateException;
-import pl.com.bottega.exchangerate.domain.commands.InvalidCommandException;
-import pl.com.bottega.exchangerate.domain.commands.Validatable;
+import pl.com.bottega.exchangerate.domain.exception.NoRateException;
+import pl.com.bottega.exchangerate.domain.exception.InvalidCommandException;
+import pl.com.bottega.exchangerate.domain.exception.Validatable;
 
 @ControllerAdvice
 public class ErrorHandlers {

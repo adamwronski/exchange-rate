@@ -3,8 +3,8 @@ package pl.com.bottega.exchangerate.infrastructure;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
-import pl.com.bottega.exchangerate.domain.commands.InvalidCommandException;
-import pl.com.bottega.exchangerate.domain.commands.Validatable;
+import pl.com.bottega.exchangerate.domain.exception.InvalidCommandException;
+import pl.com.bottega.exchangerate.domain.exception.Validatable;
 
 @Component
 @Aspect
